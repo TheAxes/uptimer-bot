@@ -46,8 +46,8 @@ async def on_ready():
 
 @client.command()
 async def help(ctx):
-	embed = discord.Embed(title=client.name, description=f"{prefix}help, {prefix}uptime <url>, {prefix}remove <url>, {prefix}total")
-	embed.set_footer("Made By TheAxes ♥️")
+	embed = discord.Embed(title=client.user, description=f"{prefix}help, {prefix}uptime <url>, {prefix}remove <url>, {prefix}total")
+	embed.set_footer(text="Made By TheAxes ♥️")
 	await ctx.reply(embed=embed)
 
 @client.command()
