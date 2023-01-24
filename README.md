@@ -23,4 +23,4 @@ python main.py
 Credit - https://youtube.com/@theaxes
 
 
-Replit - here
+Replit - https://replit.com/@NotRealAxe/uptimer-bot?v=1
